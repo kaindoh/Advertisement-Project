@@ -37,53 +37,28 @@ We have the following columns:
 
   1.Loading Data
   
-  Using tidyverse library
+      Using tidyverse library
   
   2.Data Exploration/Cleaning
   
-  Renamed the columns
+      Renamed the columns
   
-  There were no missing values and duplicates
+      There were no missing values and duplicates
   
-  The few outliers that were avilable i dint remove them so that we can identify the reasons as to why they exist
+      The few outliers that were avilable i dint remove them so that we can identify the reasons as to why they exist
   
   
   3.Model Training
   
-  I used KNeighbours Classifier to fit the model
+      I used KNeighbours Classifier to fit the model
   
   4.Model Prediction
   
-  using the split data to make predictions
+      using the split data to make predictions
   
   5.Metrics of success
-
-  Confusionmatrix
   
-       ypred
-y_test  0  1
-     0 98  2
-     1 11 89
+      Accuracy  93.5%
+  6.Conclusion
   
-  Crosstable
-  
-               | ypred 
-      y_test |         0 |         1 | Row Total | 
--------------|-----------|-----------|-----------|
-           0 |        98 |         2 |       100 | 
-             |     0.980 |     0.020 |     0.500 | 
-             |     0.899 |     0.022 |           | 
-             |     0.490 |     0.010 |           | 
--------------|-----------|-----------|-----------|
-           1 |        11 |        89 |       100 | 
-             |     0.110 |     0.890 |     0.500 | 
-             |     0.101 |     0.978 |           | 
-             |     0.055 |     0.445 |           | 
--------------|-----------|-----------|-----------|
-Column Total |       109 |        91 |       200 | 
-             |     0.545 |     0.455 |           | 
--------------|-----------|-----------|-----------|
-
-  Accuracy
-  
-  93.5%
+    The project was a success with predicting 93.5% of the times correcly hence the ads will be put where they are relevant most of the times
